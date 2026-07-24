@@ -1,0 +1,91 @@
+# --- Lab-generated artifacts -------------------------------------------------
+# ChromaDB vector store, rebuilt by load_knowledge_base.py
+chroma_data/
+
+# Student output written by the agents at runtime
+student_work/
+
+# Packaged lab bundle, regenerated for distribution
+*.zip
+
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+sdist/
+wheels/
+*.egg-info/
+*.egg
+.eggs/
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Testing / coverage / type checking
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+
+# Notebooks
+.ipynb_checkpoints/
+
+# --- Secrets and local config ------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# --- Models and caches -------------------------------------------------------
+# sentence-transformers / HuggingFace downloads if HF_HOME is pointed here
+.cache/
+models/
+*.gguf
+*.bin
+*.safetensors
+
+# --- Logs and databases ------------------------------------------------------
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# --- Editors -----------------------------------------------------------------
+# settings.json here holds absolute /Users paths, so it is machine-specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ----------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Office temp files -------------------------------------------------------
+# Lock files Word/Excel create next to the tracked .docx/.xlsx assets
+~$*
+.~lock.*
