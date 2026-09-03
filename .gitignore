@@ -89,3 +89,13 @@ Thumbs.db
 # Lock files Word/Excel create next to the tracked .docx/.xlsx assets
 ~$*
 .~lock.*
+
+# --- VM solution deliverables (TRACKED) --------------------------------------
+# The graded deliverables under vm_solution/student_work/ are tracked (the global
+# student_work/ rule above would otherwise hide them). Generated artifacts
+# (evidence transcripts, runtime notes, bytecode) stay ignored.
+!vm_solution/student_work/
+!vm_solution/student_work/**
+vm_solution/student_work/attacks/evidence/
+vm_solution/student_work/reports/note_*.md
+vm_solution/student_work/**/__pycache__/
