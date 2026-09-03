@@ -89,3 +89,13 @@ Thumbs.db
 # Lock files Word/Excel create next to the tracked .docx/.xlsx assets
 ~$*
 .~lock.*
+
+# --- Local solution deliverables (TRACKED) -----------------------------------
+# The graded deliverables under local_solution/student_work/ are tracked (the
+# global student_work/ rule above would otherwise hide them). Generated artifacts
+# (evidence transcripts, runtime notes, bytecode) stay ignored.
+!local_solution/student_work/
+!local_solution/student_work/**
+local_solution/student_work/attacks/evidence/
+local_solution/student_work/reports/note_*.md
+local_solution/student_work/**/__pycache__/
